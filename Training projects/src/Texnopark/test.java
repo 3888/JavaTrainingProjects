@@ -1,4 +1,4 @@
-package texnopark;
+package Texnopark;
 
 /**
  * Created by 3888 on 07.11.2016.

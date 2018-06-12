@@ -1,4 +1,4 @@
-package texnopark.Связывание;
+package Texnopark.Связывание;
 
 public class Связывание {
 

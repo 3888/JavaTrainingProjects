@@ -1,4 +1,4 @@
-package texnopark.Polymorphism;
+package Texnopark.Polymorphism;
 
 class Child extends Parent {
     @Override

@@ -1,4 +1,4 @@
-package texnopark.Polymorphism;
+package Texnopark.Polymorphism;
 
 public class Example {
 
