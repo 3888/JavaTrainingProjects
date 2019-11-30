@@ -1,4 +1,4 @@
-package TrainingProjects.tutorials.string;
+package TrainingProjects.tutorials.String;
 
 public class StringPull {
 

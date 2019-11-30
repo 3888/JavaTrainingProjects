@@ -1,6 +1,6 @@
-package TrainingProjects.tutorials.string;
+package TrainingProjects.tutorials.String;
 
-public class boolean_to_String_conversion {
+public class Boolean_to_String_conversion {
 
     public static void main(String[] args) {
         boolean value = true;

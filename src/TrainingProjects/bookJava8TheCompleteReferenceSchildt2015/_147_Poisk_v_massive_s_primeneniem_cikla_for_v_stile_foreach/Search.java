@@ -2,7 +2,7 @@ package TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._147_Poisk_v_m
 
 public class Search {
 
-//    Поиск в массиве с приме не нием цикла for в стиле for each
+//    Поиск в массиве с применением цикла for в стиле for each
     public static void main(String[] args) {
         int nums[] = {6, 8, 3, 7, 5, 4, 1, 2};
         int val = 5;
@@ -15,7 +15,7 @@ public class Search {
         }
 
         if (found) {
-            System.out.println("Значение найдено!");
+            System.out.println("Zna4enie naideno!");
         }
     }
 }

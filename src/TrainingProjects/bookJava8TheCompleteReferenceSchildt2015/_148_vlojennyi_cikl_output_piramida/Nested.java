@@ -1,4 +1,4 @@
-package TrainingProjects.bookJava8TheCompleteReferenceSchildt2015.__148_vlojennyi_cikl_output_piramida;
+package TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._148_vlojennyi_cikl_output_piramida;
 
 // ÷иклы могут быть вложенными
 class Nested {

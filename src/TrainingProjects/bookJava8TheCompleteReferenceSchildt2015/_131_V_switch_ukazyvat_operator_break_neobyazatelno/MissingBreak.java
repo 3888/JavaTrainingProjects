@@ -10,17 +10,17 @@ class MissingBreak {
                 case 2:
                 case 3:
                 case 4:
-                    System.out.println("i меньше 5");
+                    System.out.println("i menwe 5");
                     break;
                 case 5:
                 case 6:
                 case 7:
                 case 8:
                 case 9:
-                    System.out.println("i меньше  10");
+                    System.out.println("i menwe  10");
                     break;
                 default:
-                    System.out.println("i  равно  или   больше   10");
+                    System.out.println("i ravno ili bolwe 10");
             }
     }
 }

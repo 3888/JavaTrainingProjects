@@ -3,7 +3,7 @@ package TrainingProjects.android.study.ChatFeatures;
 import java.util.ArrayList;
 
 
-public class Castomization {
+public class Customization {
 
 //    читни главу шилдта про колекції, там все це розжовано
 //    операція виділення пам’яті дуже дорога, правильно 1 раз виділити пам’яті скільки

@@ -1,6 +1,6 @@
-package TrainingProjects.tutorials.string;
+package TrainingProjects.tutorials.String;
 
-public class equalsNPE {
+public class DoNotUse_equals_bcsItsBrings_NPE {
 
     public static void main(String[] args) {
 

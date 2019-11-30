@@ -1,6 +1,6 @@
-package TrainingProjects.tutorials.string;
+package TrainingProjects.tutorials.String;
 
-public class isEmptyNPE {
+public class DoNotUse_isEmpty_bcsItsBrings_NPE {
 
     public static void main(String[] args) {
 
