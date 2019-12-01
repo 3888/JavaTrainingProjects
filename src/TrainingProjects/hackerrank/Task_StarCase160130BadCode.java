@@ -2,7 +2,7 @@ package TrainingProjects.hackerrank;
 
 import java.util.Scanner;
 
-public class Hackerrank_StarCase160130BadCode {
+public class Task_StarCase160130BadCode {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int count = sc.nextInt();

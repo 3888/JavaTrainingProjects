@@ -1,7 +1,7 @@
 package TrainingProjects.hackerrank;
 import java.util.Scanner;
 
-public class Hackerrank_Java_If_Else {
+public class Task03JavaIfElse {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

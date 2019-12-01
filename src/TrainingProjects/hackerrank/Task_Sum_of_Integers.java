@@ -2,7 +2,7 @@ package TrainingProjects.hackerrank;
 
 import java.util.Scanner;
 
-public class Hackerrank_Sum_of_Integers {
+public class Task_Sum_of_Integers {
 
 //        Complete the given function sum Of lntegers to return the sum of n integers.
 //                Input:

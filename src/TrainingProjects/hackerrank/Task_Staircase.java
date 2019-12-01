@@ -2,7 +2,7 @@ package TrainingProjects.hackerrank;
 
 import java.util.Scanner;
 
-public class Hackerrank_Staircase {
+public class Task_Staircase {
 //    https://www.hackerrank.com/challenges/staircase
 
     public static void main(String[] args) {
