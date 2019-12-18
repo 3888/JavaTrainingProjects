@@ -6,13 +6,13 @@ public class ArrayDequeDemo {
     public static void main(String[] args) {
         ArrayDeque<String> adq = new ArrayDeque<String>();
 
-        adq.push("A");
-        adq.push("B");
-        adq.push("D");
-        adq.push("EAST");
-        adq.push("F");
+        adq.push("A 1");
+        adq.push("B 2");
+        adq.push("D 3");
+        adq.push("EAST 4");
+        adq.push("F 5");
 
-        System.out.println("Извлечение из стека: ");
+        System.out.println("Izvle4enie iz steka: ");
 
         while (adq.peek() !=null)
             System.out.print(adq.pop()+ " ");

@@ -1,9 +1,5 @@
 package TrainingProjects.tutorials.String;
 
-import java.util.Calendar;
-import java.util.Locale;
-import java.util.Random;
-
 public class Oracle_FormattingNumericPrintOutput {
     public static void main(String[] args) {
 //        https://docs.oracle.com/javase/tutorial/java/data/numberformat.html
@@ -45,8 +41,6 @@ public class Oracle_FormattingNumericPrintOutput {
 //        System.out.format("%10.3f%n", pi);   // -->  "     3.142"
 
         System.out.format("%-10.3f%n", pi);  // -->  "3.142"
-
-
 
 
 //        System.out.format(Locale.FRANCE,
