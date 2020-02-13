@@ -1,4 +1,4 @@
-package TrainingProjects.tutorials.Multithreading.interrupt;
+package TrainingProjects.tutorials.Multithreading.Interrupt;
 
 
 class Incremenator extends Thread
