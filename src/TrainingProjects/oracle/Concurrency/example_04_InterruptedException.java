@@ -4,6 +4,7 @@ package TrainingProjects.oracle.Concurrency;
 public class example_04_InterruptedException {
     private static int i = 0;
 
+//    https://docs.oracle.com/javase/tutorial/essential/concurrency/interrupt.html
     public static void main(String[] args) {
 
         Thread t = new Thread(new Runnable() {

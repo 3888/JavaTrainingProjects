@@ -1,4 +1,4 @@
-package TrainingProjects.tutorials.thread_status;
+package TrainingProjects.tutorials.Multithreading.thread_status;
 
 public class MyThread extends Thread {
     boolean waiting = true;

@@ -1,4 +1,4 @@
-package TrainingProjects.tutorials.thread_status;
+package TrainingProjects.tutorials.Multithreading.thread_status;
 // https://www.tutorialspoint.com/javaexamples/thread_status.htm
 
 public class Main {
