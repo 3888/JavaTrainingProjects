@@ -8,8 +8,8 @@ public class Exception_569 {
 
     public static void main(String[] args) {
          /*ClassCastException thrown here.*/
-//        Object i = Integer.valueOf(42);
-//        String s = (String) i;
+        Object i = 42;
+        String s = (String) i;
 
         /*    IndexOutOfBoundsException thrown here.*/
 //        List<Integer> list = new ArrayList<Integer>();

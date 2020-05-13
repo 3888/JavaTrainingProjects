@@ -17,7 +17,6 @@ public class Blank {
         System.out.println(days);
 
 
-
         long num1;
         long num2;
         String operation;
@@ -26,9 +25,7 @@ public class Blank {
         java.util.Scanner operand = new java.util.Scanner(System.in);
 
         System.out.print("Enter, first number: ");
-        while (!number.hasNextLong())
-
-        {
+        while (!number.hasNextLong()) {
             System.out.print("It's not a number, input the number please: ");
             number.next();
         }
@@ -36,9 +33,7 @@ public class Blank {
         num1 = number.nextLong();
 
         System.out.print("Enter, second number: ");
-        while (!number.hasNextLong())
-
-        {
+        while (!number.hasNextLong()) {
             System.out.print("It's not a number, input the number please: ");
             number.next();
         }
@@ -46,18 +41,14 @@ public class Blank {
         num2 = number.nextLong();
 
         System.out.print("Enter, operation [+ - * /]: ");
-        while (!operand.hasNext("[+-/\\*]"))
-
-        {
+        while (!operand.hasNext("[+-/\\*]")) {
             System.out.print("It's not an operand, input operand please: ");
             operand.next();
         }
 
         operation = operand.next();
 
-        switch (operation)
-
-        {
+        switch (operation) {
             case "+":
                 System.out.println("Result of addition: " + (num1 + num2));
                 break;
