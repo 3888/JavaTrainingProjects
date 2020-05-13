@@ -1,3 +1,3 @@
 # JavaTrainingProjects
 My Java examples from different courses.
-This project may contain not Java convention code style for my own easy vision of "memory palace".
+This project is corresponding not Java convention code style.  Just my notes and kind of "memory palace".
