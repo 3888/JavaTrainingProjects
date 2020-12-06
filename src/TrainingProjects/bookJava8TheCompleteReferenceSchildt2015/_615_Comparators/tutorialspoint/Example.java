@@ -18,7 +18,7 @@ public class Example {
         Collections.sort(list);   // Sorts the array list
 
         for(Dog a: list)   // printing the sorted list of names
-            System.out.print(a.getDogName() + ", ");
+            System.out.println(a.getDogName() + ", ");
 
         // Sorts the array list using comparator
         Collections.sort(list, new Dog());

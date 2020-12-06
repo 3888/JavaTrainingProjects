@@ -10,12 +10,12 @@ public class Rotate {
         List<String> colorList = new ArrayList<String>();
 
         // use add() method to add values in the list
-        colorList.add("White");
-        colorList.add("Black");
-        colorList.add("Red");
-        colorList.add("Green");
-        colorList.add("Yellow");
-        colorList.add("Blue");
+        colorList.add("0 White");
+        colorList.add("1 Black");
+        colorList.add("2 Red");
+        colorList.add("3 Green");
+        colorList.add("4 Yellow");
+        colorList.add("5 Blue");
 
         System.out.println(colorList);
 
