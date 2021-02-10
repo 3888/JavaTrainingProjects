@@ -1,4 +1,4 @@
-package material.annotations.enums;
+package material.enums;
 
 public class EnumExample {
     public static void main(String[] args) {

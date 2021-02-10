@@ -1,4 +1,4 @@
-package material.annotations.enums;
+package material.enums;
 
 public enum EnumJava {
     VALUE_ONE("first"),

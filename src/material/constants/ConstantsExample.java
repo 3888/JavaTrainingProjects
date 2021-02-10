@@ -1,4 +1,4 @@
-package material.annotations.constants;
+package material.constants;
 
 public class ConstantsExample {
 
