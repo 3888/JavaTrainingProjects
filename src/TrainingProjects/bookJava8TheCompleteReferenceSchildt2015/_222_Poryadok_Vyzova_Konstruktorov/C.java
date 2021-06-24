@@ -3,6 +3,6 @@ package TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._222_Poryadok_
 // создать  еще один подкласс путем расширения  класса B1
 class C extends B1 {
     C() {
-        System.out.println("B1 конструкторе С.");
+        System.out.println("B1 in C");
     }
 }

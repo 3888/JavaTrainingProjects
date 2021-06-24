@@ -4,6 +4,6 @@ package TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._222_Poryadok_
 
 public class A {
     A() {
-        System.out.println("B1 конструкторе A.");
+        System.out.println("super class A.");
     }
 }
