@@ -5,16 +5,16 @@ class Deadlock implements Runnable {
     B b = new B();
 
     Deadlock() {
-        Thread.currentThread().setName("Главный поток");
-        Thread t = new Thread(this, "Соперничающий поток");
+        Thread.currentThread().setName("Tread name Main");
+        Thread t = new Thread(this, "Thread which rival with Tread name Main");
         t.start();
         a.foo(b);   // получить блокировку для объекта а в этом потоке исполнения
-System.out.println("Назад в главный поток");
+System.out.println("Back to Tread name Main");
     }
 
     public void run() {
         b.bar(a);   // получить  блокировку для объекта b в другом потоке исполнения
-        System.out.println("Назад в другой поток");
+        System.out.println("Back to other thread");
     }
 
     public static void main(String args[]) {
