@@ -14,16 +14,49 @@ previous score
     be a previous score. Return the sum of all the scores on the record.
         */
 
+import java.util.ArrayList;
+
 public class BaseballGame {
     public static void main(String[] args) {
 
-//        String[] values = new String["",""];
-//        System.out.println(callPoint(values));
+        String[] values = {"5", "2", "C", "D", "+"};
+        System.out.println(callPoint(values));
     }
 
     public static int callPoint(String[] ops) {
-        int result = Integer.MIN_VALUE;
+        int result;
 
+        ArrayList<Integer> values = new ArrayList<>();
+
+        for (String op : ops) {
+//            System.out.println(op);
+
+            switch (op) {
+                case "C":
+                    values.remove(values.size() - 1);
+                    break;
+                case "+":
+                    values.add(values.get(values.size() - 1) + values.get(values.size() - 2));
+                    break;
+                case "D":
+                    values.add(values.get(values.size() - 1) * 2);
+                    break;
+                default:
+                    values.add(Integer.parseInt(op));
+                    break;
+            }
+
+//            System.out.println("values  size" + values.size());
+//            System.out.println("values " + values);
+        }
+
+        /*
+        https://stackoverflow.com/questions/16242733/sum-all-the-elements-java-arraylist
+         */
+
+         result = values.stream()
+                .mapToInt(Integer::intValue)
+                .sum();
 
         return result;
 
