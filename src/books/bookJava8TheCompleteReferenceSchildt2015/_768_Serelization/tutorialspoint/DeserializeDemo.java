@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._768_Serelization.tutorialspoint;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._768_Serelization.tutorialspoint.Employee;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,7 +8,7 @@ import java.io.ObjectInputStream;
 public class DeserializeDemo {
 
     public static void main(String [] args) {
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._768_Serelization.tutorialspoint.Employee e = null;
+     Employee e = null;
         try {
 
 //            FileInputStream fileIn = new FileInputStream("employee");

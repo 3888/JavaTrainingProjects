@@ -1,8 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov.DynStack;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov.FixedStack;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov.IntStack;
 
 /* Создать переменную интерфейса и
 обратиться к стекам через нее. */

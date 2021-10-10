@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._615_Comparators;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.LastNameComparator;
 
 import java.util.Map;
 import java.util.Set;

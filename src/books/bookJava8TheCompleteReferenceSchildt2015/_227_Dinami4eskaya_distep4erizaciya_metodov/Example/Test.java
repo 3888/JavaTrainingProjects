@@ -3,9 +3,6 @@ package books.bookJava8TheCompleteReferenceSchildt2015._227_Dinami4eskaya_distep
 // —делайте так, чтобы TestCaller мог работать с классами Test10 и Test20
 // без использования динамических методов:
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._227_Dinami4eskaya_distep4erizaciya_metodov.Example.Test10;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._227_Dinami4eskaya_distep4erizaciya_metodov.Example.Test20;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._227_Dinami4eskaya_distep4erizaciya_metodov.Example.TestCaller;
 
 public class Test {
     public void callMe() {

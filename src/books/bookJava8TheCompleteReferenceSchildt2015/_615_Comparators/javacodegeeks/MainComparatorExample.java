@@ -1,8 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.GradeComparator;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.NameComparator;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -28,23 +25,23 @@ public class MainComparatorExample {
 
 //        ArrayList<Student> student = new ArrayList<Student>();
 
-        List<todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student> student = new ArrayList<todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student>();
+        List<Student> student = new ArrayList<Student>();
 
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student data = todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student.newBuilder()
+      Student data = Student.newBuilder()
                 .setName("Ben")
                 .setGrade(18)
                 .build();
 
         student.add(data);
 
-        data = todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student.newBuilder()
+        data = Student.newBuilder()
                 .setName("David")
                 .setGrade(20)
                 .build();
 
         student.add(data);
 
-        data = todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student.newBuilder()
+        data =Student.newBuilder()
                 .setName("Bob")
                 .setGrade(21)
                 .build();
@@ -54,7 +51,7 @@ public class MainComparatorExample {
 
         System.out.println("Order of students before sorting is: ");
 
-        for (todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student aStudent : student) {
+        for (Student aStudent : student) {
             System.out.println(aStudent.getName() + "\t"
                     + aStudent.getGrade());
         }
@@ -66,7 +63,7 @@ public class MainComparatorExample {
                 .println("Order of students after sorting by student grade is");
 
 
-        for (todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.javacodegeeks.Student aStudent : student) {
+        for (Student aStudent : student) {
             System.out.println(aStudent.getName() + "\t"
                     + aStudent.getGrade());
         }

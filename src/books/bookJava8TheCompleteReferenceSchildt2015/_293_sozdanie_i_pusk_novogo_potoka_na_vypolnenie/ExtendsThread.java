@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._293_sozdanie_i_pusk_novogo_potoka_na_vypolnenie;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._293_sozdanie_i_pusk_novogo_potoka_na_vypolnenie.NewThread_exetends_Thread;
 
 /**
  * Created by 3888 on 26.06.2016.

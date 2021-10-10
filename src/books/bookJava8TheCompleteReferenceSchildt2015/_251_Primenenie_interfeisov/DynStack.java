@@ -2,7 +2,6 @@ package books.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeis
 
 // Реализация "наращиваемого" стека
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov.IntStack;
 
 class DynStack implements IntStack {
     private int stack[];

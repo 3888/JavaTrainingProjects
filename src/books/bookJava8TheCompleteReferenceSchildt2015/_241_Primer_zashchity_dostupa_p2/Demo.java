@@ -1,7 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p2;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p2.OtherPackage;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p2.Protection2;
 
 // ƒемонстрационный пакет р2 package p2;
 // получить экземпляры различных классов из пакета р2

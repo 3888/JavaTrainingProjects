@@ -1,11 +1,9 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._310_Primer_vzaimnoj_blokirovki;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._310_Primer_vzaimnoj_blokirovki.A;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._310_Primer_vzaimnoj_blokirovki.B;
 
 class Deadlock implements Runnable {
-    todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._310_Primer_vzaimnoj_blokirovki.A a = new A();
-    todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._310_Primer_vzaimnoj_blokirovki.B b = new todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._310_Primer_vzaimnoj_blokirovki.B();
+    A a = new A();
+    B b = new B();
 
     Deadlock() {
         Thread.currentThread().setName("Tread name Main");

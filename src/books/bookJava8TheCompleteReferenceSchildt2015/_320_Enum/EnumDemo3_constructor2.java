@@ -1,7 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._320_Enum;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple_constructor;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple_constructor2;
 
 public class EnumDemo3_constructor2 {
     public static void main(String[] args) {
@@ -12,7 +10,7 @@ public class EnumDemo3_constructor2 {
 
 //   вывести иены на все сорта яблок
         System.out.println("÷ены на все сорта яблок:");
-        for (todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple_constructor2 a : Apple_constructor2.values())
+        for (Apple_constructor2 a : Apple_constructor2.values())
             System.out.println(a + "   стоит  " + a.getPrice() + "   центов. ");
 
 //     эта программа выводит следующий результат:

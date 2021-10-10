@@ -1,7 +1,7 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p2;
 
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p1.Protection;
+import books.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p1.Protection;
 
 public class Protection2 extends Protection {
     Protection2() {

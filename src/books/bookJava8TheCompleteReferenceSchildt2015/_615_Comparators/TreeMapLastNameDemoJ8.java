@@ -1,7 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._615_Comparators;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.CompLastNames;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.FirstNameComparator;
 
 import java.util.Comparator;
 import java.util.Map;
@@ -11,7 +9,7 @@ import java.util.TreeMap;
 public class TreeMapLastNameDemoJ8 {
 
     public static void main(String[] args) {
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.CompLastNames compLN = new CompLastNames();
+       CompLastNames compLN = new CompLastNames();
         Comparator<String> compLastThenFirst = compLN.thenComparing(new FirstNameComparator());
 
         //создать древовидное отображение

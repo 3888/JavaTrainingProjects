@@ -1,12 +1,11 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._320_Enum;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Day;
 
 public class EnumMethodsDemo {
 
 
     public static void main(String[] args) {
-       todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Day day;
+      Day day;
 
        day = Day.MONDAY;
        String monday = "MONDAY";

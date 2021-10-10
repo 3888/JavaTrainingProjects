@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._592_Iterator.animalItertorExample;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._592_Iterator.animalItertorExample.AnimalIterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

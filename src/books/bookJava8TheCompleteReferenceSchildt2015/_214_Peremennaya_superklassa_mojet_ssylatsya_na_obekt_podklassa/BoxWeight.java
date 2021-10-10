@@ -1,9 +1,8 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._214_Peremennaya_superklassa_mojet_ssylatsya_na_obekt_podklassa;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._214_Peremennaya_superklassa_mojet_ssylatsya_na_obekt_podklassa.Box;
 
 // расширить класс Box, включив в него поле веса
-public class BoxWeight extends todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._214_Peremennaya_superklassa_mojet_ssylatsya_na_obekt_podklassa.Box {
+public class BoxWeight extends Box {
     double weight; // вес параллелепипеда
 
     // конструктор BoxWeight()

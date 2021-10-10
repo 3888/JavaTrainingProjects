@@ -1,7 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._1018_CyclicBarrier;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._1018_CyclicBarrier.BarAction;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._1018_CyclicBarrier.MyThread;
 
 import java.util.concurrent.CyclicBarrier;
 

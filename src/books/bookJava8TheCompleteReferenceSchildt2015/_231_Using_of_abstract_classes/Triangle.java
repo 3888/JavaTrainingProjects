@@ -1,11 +1,10 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._231_Using_of_abstract_classes;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._231_Using_of_abstract_classes.Figure;
 
 /**
  * Created by 3888 on 24.05.2016.
  */
-public class Triangle extends todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._231_Using_of_abstract_classes.Figure {
+public class Triangle extends Figure {
     Triangle(double a, double b) {
         super(a, b);
     }

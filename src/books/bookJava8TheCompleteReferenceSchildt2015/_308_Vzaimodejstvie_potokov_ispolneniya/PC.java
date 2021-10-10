@@ -1,8 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._308_Vzaimodejstvie_potokov_ispolneniya;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._308_Vzaimodejstvie_potokov_ispolneniya.Consumer;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._308_Vzaimodejstvie_potokov_ispolneniya.Producer;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._308_Vzaimodejstvie_potokov_ispolneniya.Q_sinhroniziruemya_ochered;
 
 class PC {
     public static void main(String args[]) {

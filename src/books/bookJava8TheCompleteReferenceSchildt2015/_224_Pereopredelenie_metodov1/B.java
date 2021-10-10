@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._224_Pereopredelenie_metodov1;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._224_Pereopredelenie_metodov1.A;
 
 /**
  * Created by 3888 on 20.05.2016.

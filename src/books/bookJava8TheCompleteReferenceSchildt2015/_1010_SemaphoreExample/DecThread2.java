@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._1010_SemaphoreExample;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._1010_SemaphoreExample.SharedRes;
 
 import java.util.concurrent.Semaphore;
 

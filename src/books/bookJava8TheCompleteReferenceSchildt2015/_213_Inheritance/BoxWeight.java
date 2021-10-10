@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._213_Inheritance;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._213_Inheritance.Box;
 
 // расширить класс Box, включив в него поле веса
 public class BoxWeight extends Box {

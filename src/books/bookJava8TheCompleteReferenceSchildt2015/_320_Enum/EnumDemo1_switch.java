@@ -1,16 +1,15 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._320_Enum;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple;
 
 class EnumDemo1_switch {
     public static void main(String args[]) {
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple ap;
-        ap = todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple.RedDel;
+        Apple ap;
+        ap = Apple.RedDel;
 
 //  вывести  значение  перечислимого типа
         System.out.println("Zначение  ар:   " + ap);
         System.out.println();
-        ap = todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple.GoldenDel;
+        ap = Apple.GoldenDel;
 
 //  сравнить  два  значения  перечисляемого типа
 //
@@ -29,8 +28,8 @@ class EnumDemo1_switch {
                 System.out.println("Сорт  Red   Delicious   красный.");
                 break;
             case Winesap:
-            System.out.println("Copт Winesap  красный.");
-            break;
+                System.out.println("Copт Winesap  красный.");
+                break;
             case Cortland:
                 System.out.println("Сорт Cortland  красный.");
                 break;

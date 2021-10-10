@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._247_Realizaciya_interfeisov;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._247_Realizaciya_interfeisov.Callback;
 
 //  ≈ще  одна реализация интерфейса
 public class AnotherClient implements Callback {

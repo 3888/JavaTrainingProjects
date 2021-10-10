@@ -1,13 +1,12 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._297_sozdayutsya_tri_dochernih_potoka_ispolneniya;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._297_sozdayutsya_tri_dochernih_potoka_ispolneniya.NewThread;
 
 public class MultiThreadDemo {
     public static void main(String[] args) {
 //        boolean running = true;
-        new todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._297_sozdayutsya_tri_dochernih_potoka_ispolneniya.NewThread("1-й"); // запустить потоки на исполнение
-        new todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._297_sozdayutsya_tri_dochernih_potoka_ispolneniya.NewThread("2-й");
-        new todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._297_sozdayutsya_tri_dochernih_potoka_ispolneniya.NewThread("3-й");
+        new NewThread("1-й"); // запустить потоки на исполнение
+        new NewThread("2-й");
+        new NewThread("3-й");
 
 //        new NewThread("1-й", 5); // запустить потоки на исполнение + приоритеты
 //        new NewThread("2-й", 10);

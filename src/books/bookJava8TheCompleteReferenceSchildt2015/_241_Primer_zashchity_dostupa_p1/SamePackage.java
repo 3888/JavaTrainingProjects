@@ -1,12 +1,11 @@
 
 package books.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p1;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p1.Protection;
 
 public class SamePackage {
 
     SamePackage() {
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p1.Protection p = new Protection();
+Protection p = new Protection();
         System.out.println("конструктор этого же пакета " + getClass().getSimpleName());
         System.out.println("n =   " + p.n);
 // доступно только для класса

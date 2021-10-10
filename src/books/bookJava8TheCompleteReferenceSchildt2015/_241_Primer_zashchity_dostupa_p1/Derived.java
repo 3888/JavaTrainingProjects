@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p1;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._241_Primer_zashchity_dostupa_p1.Protection;
 
 /**
  * Created by 3888 on 25.05.2016.

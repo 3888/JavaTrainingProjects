@@ -1,13 +1,10 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._214_Peremennaya_superklassa_mojet_ssylatsya_na_obekt_podklassa;
 
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._214_Peremennaya_superklassa_mojet_ssylatsya_na_obekt_podklassa.Box;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._214_Peremennaya_superklassa_mojet_ssylatsya_na_obekt_podklassa.BoxWeight;
-
 class RefDemo {
     public static void main(String args[]) {
         BoxWeight weightbox = new BoxWeight(3, 5, 7, 8.37);
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._214_Peremennaya_superklassa_mojet_ssylatsya_na_obekt_podklassa.Box plainbox = new todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._214_Peremennaya_superklassa_mojet_ssylatsya_na_obekt_podklassa.Box();
+        Box plainbox = new Box();
         double vol;
         vol = weightbox.volume();
         System.out.println("Объем weightbox  равен  " + vol);

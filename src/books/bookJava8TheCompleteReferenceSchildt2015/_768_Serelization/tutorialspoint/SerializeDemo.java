@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._768_Serelization.tutorialspoint;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._768_Serelization.tutorialspoint.Employee;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -11,7 +10,7 @@ public class SerializeDemo {
     private static String FILE_PATH;
 
     public static void main(String[] args) {
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._768_Serelization.tutorialspoint.Employee e = new Employee();
+     Employee e = new Employee();
         e.name = "Reyan Ali";
         e.address = "Phokka Kuan, Ambehta Peer";
         e.SSN = 11122333;

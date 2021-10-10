@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov.FixedStack;
 
 class IFTest {
     public static void main(String args[]) {

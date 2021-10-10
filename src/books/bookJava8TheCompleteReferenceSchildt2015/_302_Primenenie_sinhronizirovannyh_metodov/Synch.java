@@ -1,7 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._302_Primenenie_sinhronizirovannyh_metodov;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._302_Primenenie_sinhronizirovannyh_metodov.Caller;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._302_Primenenie_sinhronizirovannyh_metodov.Callme;
 
 public class Synch {
 

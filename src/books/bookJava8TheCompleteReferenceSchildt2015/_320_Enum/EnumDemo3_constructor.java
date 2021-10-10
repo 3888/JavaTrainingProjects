@@ -1,16 +1,15 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._320_Enum;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple_constructor;
 
 public class EnumDemo3_constructor {
     public static void main(String[] args) {
 // вывести цену на яблоко сорта Winesap
-        System.out.println("яблоко сорта Winesap стоит " + todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple_constructor.Winesap.getPrice() +
+        System.out.println("яблоко сорта Winesap стоит " + Apple_constructor.Winesap.getPrice() +
                 "   центов.\n");
 
 //   вывести иены на все сорта яблок
         System.out.println("÷ены на все сорта яблок:");
-        for (todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple_constructor a : Apple_constructor.values())
+        for (Apple_constructor a : Apple_constructor.values())
             System.out.println(a + "   стоит  " + a.getPrice() + "   центов. ");
 
 //     Эта программа выводит следующий результат:

@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._592_Iterator.animalItertorExample;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._592_Iterator.animalItertorExample.Animal;
 
 import java.util.ArrayList;
 
@@ -11,7 +10,7 @@ public class TestIterator{
         animalList.add("Horse");
         animalList.add("Lion");
         animalList.add("Tiger");
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._592_Iterator.animalItertorExample.Animal animal = new Animal(animalList);
+       Animal animal = new Animal(animalList);
         for (String animalObj : animal) {
             System.out.println(animalObj);
         }

@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._310_Primer_vzaimnoj_blokirovki;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._310_Primer_vzaimnoj_blokirovki.A;
 
 class B {
         synchronized void bar(A a) {

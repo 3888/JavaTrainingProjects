@@ -1,7 +1,6 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._308_Vzaimodejstvie_potokov_ispolneniya;
 
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._308_Vzaimodejstvie_potokov_ispolneniya.Q_sinhroniziruemya_ochered;
 
 public class Producer implements Runnable {
     Q_sinhroniziruemya_ochered q;

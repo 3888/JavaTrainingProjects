@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._302_Primenenie_sinhronizirovannyh_metodov;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._302_Primenenie_sinhronizirovannyh_metodov.Callme;
 
 class Caller implements Runnable {
     String msg;

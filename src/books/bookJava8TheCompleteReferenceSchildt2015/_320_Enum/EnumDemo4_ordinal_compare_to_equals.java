@@ -1,19 +1,18 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._320_Enum;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple;
 
 public class EnumDemo4_ordinal_compare_to_equals {
     public static void main(String[] args) {
 //   получить   все  порядковые   значения  с  помощью метода  ordinal()
 
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple ap, ap2, ap3;
+    Apple ap, ap2, ap3;
 
         System.out.println("Bce константы сортов яблок " + " и их порядковые значения: ");
 
-        for (todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple a : todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple.values())
+        for (Apple a : Apple.values())
             System.out.println(a + "   " + a.ordinal());
-        ap = todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple.RedDel;
-        ap2 = todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple.GoldenDel;
+        ap = Apple.RedDel;
+        ap2 = Apple.GoldenDel;
         ap3 = Apple.RedDel;
         System.out.println();
 //   продемонстрировать  применение методов compareTo()   и equals()

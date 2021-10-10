@@ -1,14 +1,12 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._615_Comparators;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.MyComparator;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.MyComparatorReversed;
 
 import java.util.Comparator;
 import java.util.TreeSet;
 
 public class MyComparatorDemo {
     public static void main(String[] args) {
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._615_Comparators.MyComparator myComparator = new MyComparator();
+        MyComparator myComparator = new MyComparator();
         Comparator<String> comparatorLambda = (aSrt, bStr) -> bStr.compareTo(aSrt);
 
         //создать древовилное множество типа TreeSet
@@ -46,7 +44,7 @@ public class MyComparatorDemo {
 
         System.out.println("treeSetJ8Reversed");
         for (String element : treeSetJ8Reversed)
-        System.out.print(element + " ");
+            System.out.print(element + " ");
         System.out.println();
 
         System.out.println("treeSetJ8Lambda");

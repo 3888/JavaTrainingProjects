@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._1010_SemaphoreExample;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._1010_SemaphoreExample.SharedRes;
 
 import java.util.concurrent.Semaphore;
 
@@ -9,7 +8,7 @@ public class IncThread2 implements Runnable {
     String name;
     Semaphore semaphore;
 
-    IncThread2(Semaphore semaphore, String threadName){
+    IncThread2(Semaphore semaphore, String threadName) {
         this.semaphore = semaphore;
         name = threadName;
         new Thread(this).start();
@@ -19,12 +18,12 @@ public class IncThread2 implements Runnable {
     public void run() {
         System.out.println("Starting " + name);
 
-        try{
+        try {
             System.out.println("Thread " + name + " waiting to begin");
             semaphore.acquire();
             System.out.println("Tread " + name + "get permission");
 
-            for (int i = 0; i < 5; i++){
+            for (int i = 0; i < 5; i++) {
                 System.out.println(name + " : " + SharedRes.count++);
 
                 //Если есть метод, освобождающий ресурс semaphore.release(), то

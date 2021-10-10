@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._297_sozdayutsya_tri_dochernih_potoka_ispolneniya;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._297_sozdayutsya_tri_dochernih_potoka_ispolneniya.NewThread;
 
 public class DemoJoin {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._326_Enum_switch_more_example;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._326_Enum_switch_more_example.Answers;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._326_Enum_switch_more_example.Question;
 
 class AskMe {
     static void answer(Answers result) {

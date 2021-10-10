@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._251_Primenenie_interfeisov.DynStack;
 
 class IFTest2 {
     public static void main(String args[]) {

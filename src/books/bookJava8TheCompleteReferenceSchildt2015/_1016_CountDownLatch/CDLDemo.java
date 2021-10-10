@@ -1,6 +1,5 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._1016_CountDownLatch;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._1016_CountDownLatch.MyThread;
 
 import java.util.concurrent.CountDownLatch;
 

@@ -1,10 +1,9 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._320_Enum;
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple;
 
 class EnumDemo2_values_values_of {
     public static void main(String args[]) {
-        todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple ap;
+      Apple ap;
         System.out.println("константы перечислимого типа Apple:");
 
 // применить метод values()
@@ -17,7 +16,7 @@ class EnumDemo2_values_values_of {
 // переменная allapples, которой присваивается ссылка на массив значений перечислимого типа.
 // Но это совсем не обязательно, поскольку цикл for можно написать и без переменной allapples
 // следующим образом:
-        for (todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple a : todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._320_Enum.Apple.values())
+        for (Apple a : Apple.values())
             System.out.println(a);
         System.out.println();
 

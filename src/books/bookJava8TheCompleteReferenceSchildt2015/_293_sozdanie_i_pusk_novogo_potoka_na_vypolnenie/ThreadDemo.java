@@ -1,8 +1,6 @@
 package books.bookJava8TheCompleteReferenceSchildt2015._293_sozdanie_i_pusk_novogo_potoka_na_vypolnenie;
 
 
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._293_sozdanie_i_pusk_novogo_potoka_na_vypolnenie.NewThread_exetends_Thread;
-import todo.TrainingProjects.bookJava8TheCompleteReferenceSchildt2015._293_sozdanie_i_pusk_novogo_potoka_na_vypolnenie.NewThread_implement_Runnable;
 
 public class ThreadDemo {
     public static void main(String args[]) {
