@@ -1,4 +1,4 @@
-package todo.TrainingProjects.logicUpgrade.projecteuler;
+package contest.projecteuler;
 //https://sites.google.com/site/kubenskiy/Home/2010fall/informatics/programs-1
 
 /**

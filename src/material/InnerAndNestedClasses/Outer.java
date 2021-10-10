@@ -1,4 +1,4 @@
-package todo.TrainingProjects.tutorials.InnerAndNestedClasses;
+package material.InnerAndNestedClasses;
 
 public class Outer {
         // Простой вложенный класс

@@ -1,4 +1,4 @@
-package todo.TrainingProjects.logicUpgrade.projecteuler;
+package contest.projecteuler;
 
 
 public class Problem005GDC {

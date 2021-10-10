@@ -1,4 +1,4 @@
-package todo.TrainingProjects.logicUpgrade.Java_Quizes;
+package contest.Java_Quizes;
 
 public class Quiz_004_Boolean_operations {
     public static void main(String[] args) {

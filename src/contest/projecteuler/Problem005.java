@@ -1,4 +1,4 @@
-package todo.TrainingProjects.logicUpgrade.projecteuler;
+package contest.projecteuler;
 
 //      2520 is the smallest number that can be divided by each of the result from 1 to 10 without any remainder.
 //

@@ -1,4 +1,4 @@
-package todo.TrainingProjects.tutorials.array;
+package material.collections.arrays;
 
 import java.util.Arrays;
 

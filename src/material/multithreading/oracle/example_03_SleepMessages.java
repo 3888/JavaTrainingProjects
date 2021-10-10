@@ -1,4 +1,4 @@
-package todo.TrainingProjects.oracle.Concurrency;
+package material.multithreading.oracle;
 
 public class example_03_SleepMessages {
     public static void main(String args[])

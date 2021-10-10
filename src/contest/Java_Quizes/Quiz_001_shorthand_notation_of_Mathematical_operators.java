@@ -1,4 +1,4 @@
-package todo.TrainingProjects.logicUpgrade.Java_Quizes;
+package contest.Java_Quizes;
 
 public class Quiz_001_shorthand_notation_of_Mathematical_operators {
     public static void main(String[] args) {

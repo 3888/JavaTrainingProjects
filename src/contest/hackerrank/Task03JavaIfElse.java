@@ -1,4 +1,4 @@
-package todo.TrainingProjects.hackerrank;
+package contest.hackerrank;
 import java.util.Scanner;
 
 public class Task03JavaIfElse {

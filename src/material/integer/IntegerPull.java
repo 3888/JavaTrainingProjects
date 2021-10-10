@@ -1,4 +1,4 @@
-package todo.TrainingProjects.tutorials.integer;
+package material.integer;
 
 public class IntegerPull {
 

@@ -1,4 +1,4 @@
-package todo.TrainingProjects.tutorials.Math;
+package material.Math;
 
 public class JavaMath {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package todo.TrainingProjects.logicUpgrade.Java_Quizes;
+package contest.Java_Quizes;
 
 public class Quiz_005_array_initialization_syntax {
 

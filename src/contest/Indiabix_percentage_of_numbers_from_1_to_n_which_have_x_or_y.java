@@ -1,4 +1,4 @@
-package todo.TrainingProjects.logicUpgrade;
+package contest;
 
 public class Indiabix_percentage_of_numbers_from_1_to_n_which_have_x_or_y {
 

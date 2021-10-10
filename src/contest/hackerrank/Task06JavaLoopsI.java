@@ -1,4 +1,4 @@
-package todo.TrainingProjects.hackerrank;
+package contest.hackerrank;
 
 public class Task06JavaLoopsI {
     public static void main(String[] args) {

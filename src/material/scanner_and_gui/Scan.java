@@ -1,4 +1,4 @@
-package material.scanner;
+package material.scanner_and_gui;
 
 import java.util.Scanner;
 

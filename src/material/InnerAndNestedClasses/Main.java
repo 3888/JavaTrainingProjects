@@ -1,4 +1,4 @@
-package todo.TrainingProjects.tutorials.InnerAndNestedClasses;
+package material.InnerAndNestedClasses;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package todo.TrainingProjects.tutorials.Jackson_Exceptions;
+package material.Jackson_Exceptions;
 
 /*
  Source:

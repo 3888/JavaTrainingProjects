@@ -1,4 +1,4 @@
-package todo.TrainingProjects.logicUpgrade.projecteuler;
+package contest.projecteuler;
 
 import java.math.BigInteger;
 import java.util.Random;
